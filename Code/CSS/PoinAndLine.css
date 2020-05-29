@@ -17,3 +17,56 @@ body {
     url("../image/cell.png"),
     url("../image/color.png");
 }
+#mainBig {
+    position: absolute;
+    float: left;
+    background-color: white;
+    width: 960px;
+    height: 620px;
+    margin-left: calc(100% / 2 - 480px); 
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.header {
+    height: 45px;
+    border-bottom: 1px solid #cfcccc;
+}
+.border_head {
+    border-top : 1px solid #7d7c7c;
+    background-color: #e8e6e6 ;
+    height: 5px;
+    width: calc(100% / 2 - 10px );
+    margin-left: calc(100% / 4 + 5px);
+    margin-top: 25px;
+    border-radius: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    opacity: 0.6;
+}
+.back {
+    text-decoration: none;
+    font-family: 'Circe';
+    font-size: 20px;
+    color: #f5b24e;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.btn_back {
+    background-image: url("../Image/back.png");
+    background-position: 0px 0px;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: -25px;
+    position: absolute;
+}
+.back:hover {
+    color: #f5914e;
+    background-position: 100px 0px;
+}
+.btn_back:hover {
+    background-position: 100px 0px;
+}
